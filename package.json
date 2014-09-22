@@ -1,5 +1,5 @@
 {
-  "name": "gulp-rjs",
+  "name": "sre-gulp-rjs",
   "version": "0.1.0",
   "description": "A gulp interface to require.js",
   "main": "index.js",
