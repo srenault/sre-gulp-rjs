@@ -1,0 +1,26 @@
+{
+  "name": "gulp-rjs",
+  "version": "0.1.0",
+  "description": "A gulp interface to require.js",
+  "main": "index.js",
+  "scripts": {},
+  "author": {
+    "name": "Sebastien Renault",
+    "url": "https://github.com/srenault"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/srenault/sre-gulp-rjs",
+  "bugs": {
+    "url": "https://github.com/srenault/sre-gulp-rjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/srenault/sre-gulp-rjs.git"
+  },
+  "dependencies": {
+    "event-stream": "*",
+    "requirejs": "*"
+  },
+  "readme": "# gulp-rjs [![NPM version][npm-image]][npm-url]\n\n> r.js optimizer plugin for [gulp](https://github.com/wearefractal/gulp)\n\n## Usage\n\nFirst, install `gulp-rjs` as a development dependency:\n\n```shell\nnpm install --save-dev gulp-rjs\n```\n\nThen, use it in your `gulpfile.js`:\n```javascript\nvar rjs = require(\"gulp-rjs\");\ngulp.src('app/scripts/*.js')\n\t.pipe(gulp.dest('./dist/scripts'))\n\t.pipe(rjs({baseUrl:'dist/scripts'}))\n```\n## License\n\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n\n[npm-url]: https://npmjs.org/package/gulp-rjs\n[npm-image]: https://badge.fury.io/js/gulp-rjs.png\n",
+  "readmeFilename": "README.md"
+}
